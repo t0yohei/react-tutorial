@@ -4,9 +4,12 @@ import Footer from "./Footer";
 
 export default class Layout extends React.Component {
   render() {
+    const title = "Welcome Tsutomu!";
+
     return (
       <div>
-        <Header />
+        <Header title={title} />
+        <Header title={"Thank you"} />
         <Footer />
       </div>
     );
